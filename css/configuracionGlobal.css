@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: monospace;
+    font-size: 10px;
+}
+
+
+:root{
+    /*variables de color*/
+    --red:red;
+    --verde:rgb(5, 115, 189);
+    --amarillo: #F7E914;
+    --texto:rgb(5, 115, 189);
+    --text2:black;
+    --parrafo: 1.8rem;
+    --textohover:rgb(0, 217, 255);
+    --texto3:black;
+    --texto3f:verdana;
+
+    /* Vaiables de tamaño de letra*/
+    --h1: 16px;
+    --h2: 3rem;
+    --h3: 2.5rem;
+}
+
+
+/* Estructura de las Secciones */
+
+/*background-section*/
+.background-Section{
+    width:100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+}
+
+p{
+    font-size:2rem;
+}
+
+.section-body{
+
+    max-width:130rem;
+    height:auto;
+    margin:auto;
+}
+
